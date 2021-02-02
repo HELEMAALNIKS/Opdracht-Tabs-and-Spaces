@@ -14,20 +14,14 @@ h1 {
     letter-spacing: 0;
     line-height: 54px;
     display: flex;
-    /* margin-block: 0px; */
     justify-content: flex-start;
     margin: 0px;
 }
 
 .title {
     padding-top: 91px;
-    /* padding-left: 120px;
-    padding-bottom: 30px; */
-    /* float: left; */
-    /* width: 30%; */
     display: flex;
     flex-direction: column;
-    /* position: relative; */
     align-self:flex-start;
     
 }
@@ -79,9 +73,7 @@ p {
 }
 
 .line {
-    /* border-left: solid #FFFFFF;
-    position: relative;    */
-    display: inline-block;
+    /* display: inline-block; */
     border-left: 2px solid #ccc;
     padding-left: 40px;
     margin-left: -40px;
@@ -124,7 +116,7 @@ ul hr {
 }
 
 article {
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 
 .icon {
@@ -145,8 +137,6 @@ li:hover {
     opacity: 100%;
     padding-left: 50px;
     transition: padding-left 0.5s;
-    /* display: block; */
-    /* transform: translate(50px,0px); */
 }
 
 /* media queries */
@@ -190,6 +180,7 @@ li:hover {
                 color: #FFFFFF;
                 letter-spacing: 0;
                 line-height: 20px;
+                margin-top: 10px;
             }
 
             h3 {
@@ -209,6 +200,7 @@ li:hover {
                 line-height: 20px;
                 display: block;
                 margin-block: 0px;
+                
             }
 
             p {
@@ -221,10 +213,6 @@ li:hover {
 
             .line {
                 border-left: 0px;
-            }
-
-            .icon {
-
             }
 
             .article-title {
