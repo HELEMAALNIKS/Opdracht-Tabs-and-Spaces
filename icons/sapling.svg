@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="41px" viewBox="0 0 35 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Stek Copy 5</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile" transform="translate(-28.000000, -899.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="390" height="1660"></rect>
+            <rect id="Rectangle" fill="#003032" x="0" y="0" width="390" height="1660"></rect>
+            <g id="Group" transform="translate(20.000000, 894.000000)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                <g>
+                    <path d="M12.781475,44.524525 C12.781475,44.633275 14.695475,38.020525 19.741475,38.368525 C24.788225,38.716525 26.702225,33.270025 30.530225,36.080275 C34.358975,38.890525 36.620975,44.526025 36.620975,44.526025" id="Stroke-7"></path>
+                    <path d="M24.12995,36.822775 C24.12995,36.822775 28.81295,15.550525 22.2632,6.774025" id="Stroke-9"></path>
+                    <path d="M25.3256,20.890375 C25.3256,20.890375 14.5991,14.849125 9.2201,19.948375 C9.2201,19.948375 13.80335,28.346875 25.3256,20.890375 Z" id="Stroke-11"></path>
+                    <path d="M25.3256,27.8641 C25.3256,27.8641 36.0521,33.90535 41.4311,28.8061 C41.4311,28.8061 36.84785,20.4076 25.3256,27.8641 Z" id="Stroke-13"></path>
+                    <path d="M24.742625,12.914275 C24.742625,12.914275 36.969875,14.342275 39.961625,7.561525 C39.961625,7.561525 32.490125,1.585525 24.742625,12.914275 Z" id="Stroke-15"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
