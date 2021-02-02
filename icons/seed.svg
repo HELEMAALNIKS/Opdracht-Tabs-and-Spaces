@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="33px" height="41px" viewBox="0 0 33 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Icon/Stek Copy 4</title>
+    <title>Icon/Stek</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.243000 0 0 0 0 0.922000 0 0 0 0 0.506000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Mobile" transform="translate(-25.000000, -403.000000)">
-            <rect fill="#FFFFFF" x="0" y="0" width="390" height="1660"></rect>
-            <rect id="Rectangle" fill="#003032" x="0" y="0" width="390" height="1660"></rect>
-            <g id="Group" transform="translate(20.000000, 399.000000)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                <g>
-                    <path d="M33.42465,37.773275 C33.42465,34.511525 30.78015,31.867025 27.5184,31.867025 C24.25665,31.867025 21.61215,34.511525 21.61215,37.773275 C21.61215,41.035025 24.25665,43.679525 27.5184,43.679525 C30.78015,43.679525 33.42465,41.035025 33.42465,37.773275 Z" id="Stroke-1"></path>
-                    <path d="M27.5184,31.867025 C27.5184,31.867025 23.69715,10.675025 36.20415,5.463275" id="Stroke-3"></path>
-                    <path d="M27.5184,15.19055 C27.5184,15.19055 20.7774,3.9353 9.6594,7.75655 C-1.45785,11.57855 15.1524,18.10805 27.5184,15.19055 Z" id="Stroke-5"></path>
+        <g id="Desktop-HD" transform="translate(-571.000000, -416.000000)">
+            <rect fill="#003032" x="0" y="0" width="1440" height="2028"></rect>
+            <g id="Group" transform="translate(566.000000, 412.000000)" stroke-linecap="round" stroke-linejoin="round">
+                <g filter="url(#filter-1)" id="Icon/Stek">
+                    <g>
+                        <path d="M33.42465,37.773275 C33.42465,34.511525 30.78015,31.867025 27.5184,31.867025 C24.25665,31.867025 21.61215,34.511525 21.61215,37.773275 C21.61215,41.035025 24.25665,43.679525 27.5184,43.679525 C30.78015,43.679525 33.42465,41.035025 33.42465,37.773275 Z" id="Stroke-1" stroke="#FFFFFF" stroke-width="2"></path>
+                        <path d="M27.5184,31.867025 C27.5184,31.867025 23.69715,10.675025 36.20415,5.463275" id="Stroke-3" stroke="#FFFFFF" stroke-width="2"></path>
+                        <path d="M27.5184,15.19055 C27.5184,15.19055 20.7774,3.9353 9.6594,7.75655 C-1.45785,11.57855 15.1524,18.10805 27.5184,15.19055 Z" id="Stroke-5" stroke="#FFFFFF" stroke-width="2"></path>
+                    </g>
                 </g>
             </g>
         </g>

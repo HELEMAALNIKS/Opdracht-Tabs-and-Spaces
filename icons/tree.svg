@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="37px" height="45px" viewBox="0 0 37 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>Icon/Stek Copy 6</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.243000 0 0 0 0 0.922000 0 0 0 0 0.506000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Mobile" transform="translate(-26.000000, -1392.000000)">
             <rect fill="#FFFFFF" x="0" y="0" width="390" height="1660"></rect>
             <rect id="Rectangle" fill="#003032" x="0" y="0" width="390" height="1660"></rect>
-            <g id="Group" transform="translate(20.000000, 1389.000000)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                <g>
-                    <path d="M25.09945,46.862425 C25.09945,46.862425 26.0917,26.975425 20.55595,16.229425" id="Stroke-17"></path>
-                    <path d="M24.5344,31.546 C24.5344,31.546 26.1274,21.85975 30.8179,19.80775" id="Stroke-19"></path>
-                    <path d="M40.00165,19.7617 C40.1494,19.29145 40.27315,18.80845 40.36465,18.31045 C41.5729,11.72695 37.21465,5.4097 30.6304,4.2007 C24.8359,3.1372 19.24915,6.38695 17.1694,11.6707 C12.58465,12.7132 8.83165,16.38745 7.9294,21.3052 C6.72115,27.8887 11.0794,34.20595 17.6629,35.4142 C21.50965,36.1207 25.2634,34.9237 27.9619,32.49595 C28.77265,32.9302 29.66065,33.25045 30.61315,33.4252 C35.5489,34.3312 40.2844,31.0642 41.1904,26.1292 C41.6104,23.84095 41.12515,21.6022 40.00165,19.7617 Z" id="Stroke-21"></path>
+            <g id="Group" transform="translate(20.000000, 1389.000000)" stroke-linecap="round" stroke-linejoin="round">
+                <g filter="url(#filter-1)" id="Icon/Stek-Copy-2">
+                    <g>
+                        <path d="M25.09945,46.862425 C25.09945,46.862425 26.0917,26.975425 20.55595,16.229425" id="Stroke-17" stroke="#FFFFFF" stroke-width="2"></path>
+                        <path d="M24.5344,31.546 C24.5344,31.546 26.1274,21.85975 30.8179,19.80775" id="Stroke-19" stroke="#FFFFFF" stroke-width="2"></path>
+                        <path d="M40.00165,19.7617 C40.1494,19.29145 40.27315,18.80845 40.36465,18.31045 C41.5729,11.72695 37.21465,5.4097 30.6304,4.2007 C24.8359,3.1372 19.24915,6.38695 17.1694,11.6707 C12.58465,12.7132 8.83165,16.38745 7.9294,21.3052 C6.72115,27.8887 11.0794,34.20595 17.6629,35.4142 C21.50965,36.1207 25.2634,34.9237 27.9619,32.49595 C28.77265,32.9302 29.66065,33.25045 30.61315,33.4252 C35.5489,34.3312 40.2844,31.0642 41.1904,26.1292 C41.6104,23.84095 41.12515,21.6022 40.00165,19.7617 Z" id="Stroke-21" stroke="#FFFFFF" stroke-width="2"></path>
+                    </g>
                 </g>
             </g>
         </g>
