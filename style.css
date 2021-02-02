@@ -1,6 +1,10 @@
-html {
+html, body {
     background-color: #003032;
     scroll-behavior: smooth;
+    height: 100%;
+    margin: auto;
+    max-width: 1440px;
+    
 }
 
 h1 {
@@ -9,12 +13,16 @@ h1 {
     font-size: 48px;
     letter-spacing: 0;
     line-height: 54px;
-    display: block;
-    margin-block: 0px;
+    display: flex;
+    /* margin-block: 0px; */
+    justify-content: flex-start;
+    margin: 0px;
 }
 
 .title {
-    /* padding: 120px; */
+    padding-top: 91px;
+    /* padding-left: 120px;
+    padding-bottom: 30px; */
 }
 
 h1.white {
@@ -63,11 +71,13 @@ p {
 }
 
 li {
-
+    padding-right: 30%;
 }
 
 ul {
+    
     list-style-type: none;
+    padding-inline-start: 0px;
     
 }
 
@@ -76,29 +86,104 @@ ul hr {
 }
 
 article {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    align-content: flex-end;
+    align-content: flex-end; */
 }
 
 .article-image {
     /* max-width:100%; */
     /* max-height: 270px; */
     width: fit-content;
-    
+        width: 100%; /* width of container */
+        height: 270px; /* height of container */
+        object-fit: cover;    
 }
 
 .navigation {
     float: left;
     width: 30%;
-    
+    height:100hw;
+    padding-top: 30px;
+    position: relative;
 }
 
 .articles {
-
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
 }
 
 .icon {
     max-width: 50px;
     max-height: 50px;
 }
+
+li:hover {
+    background-color:yellow;
+}
+
+/* media queries */
+
+@media screen and (max-width: 1440px) {
+    html {
+        margin: 20px;
+    }
+}
+
+@media screen and (max-height: 1024px),
+        screen and (max-width: 768px) {
+
+            html, body{
+                margin: 20px;
+            }
+
+            .title {
+                padding-top: 60px;
+                /* padding-left: 120px; */
+                padding-bottom: 30px;
+            }
+
+            .navigation {
+                display: none;
+            }
+
+            h1 {
+                font-family: Montserrat-ExtraBold;
+                font-size: 36px;
+                letter-spacing: 0;
+                line-height: 38px;
+
+            }
+
+            h2 {
+                font-family: Montserrat-Bold;
+                font-size: 24px;
+                color: #FFFFFF;
+                letter-spacing: 0;
+                line-height: 20px;
+            }
+
+            h3 {
+                font-family: Nunito-Regular;
+                font-size: 12px;
+                color: #3EEB81;
+                letter-spacing: 0.86px;
+                margin-block: 0px;
+            }
+
+            h4 {
+                display: block;
+                margin-block: 0px;
+            }
+
+            p {
+                font-family: Nunito-Regular;
+                font-size: 16px;
+                color: #FFFFFF;
+                letter-spacing: 0;
+                line-height: 24px;
+            }
+
+
+        }
