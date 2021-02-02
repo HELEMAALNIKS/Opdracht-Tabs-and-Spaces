@@ -23,6 +23,14 @@ h1 {
     padding-top: 91px;
     /* padding-left: 120px;
     padding-bottom: 30px; */
+    /* float: left; */
+    /* width: 30%; */
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+    align-self:flex-start;
+    max-width: 30%;
+    
 }
 
 h1.white {
@@ -72,13 +80,13 @@ p {
 
 li {
     padding-right: 30%;
+    opacity: 30%;
 }
 
 ul {
     
     list-style-type: none;
     padding-inline-start: 0px;
-    
 }
 
 ul hr {
@@ -117,10 +125,20 @@ article {
 .icon {
     max-width: 50px;
     max-height: 50px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.arrow {
+    display: none;
 }
 
 li:hover {
-    background-color:yellow;
+    opacity: 100%;
+    padding-left: 50px;
+    transition: padding-left 0.5s;
+    /* display: block; */
+    /* transform: translate(50px,0px); */
 }
 
 /* media queries */
